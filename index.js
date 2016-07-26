@@ -9,6 +9,9 @@ module.exports = function deepFreeze(obj) {
         };
     }
 
+    // Freeze self
+    Object.freeze(obj);
+
     Object.getOwnPropertyNames(obj).forEach(function (name) {
         var prop = obj[name];
 
@@ -18,6 +21,6 @@ module.exports = function deepFreeze(obj) {
         }
     });
 
-    // Freeze self
-    return Object.freeze(obj);
+
+    return obj;
 }

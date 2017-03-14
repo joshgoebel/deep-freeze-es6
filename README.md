@@ -1,5 +1,7 @@
 # deep-freeze-es6 [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/deep-freeze-es6.svg)](https://greenkeeper.io/)
+
 deep freeze, works with Map and Set
 
 ## Quick example

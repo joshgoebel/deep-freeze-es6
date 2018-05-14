@@ -21,6 +21,5 @@ module.exports = function deepFreeze(obj) {
         }
     });
 
-
     return obj;
 }

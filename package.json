@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "deep freeze, works with Map and Set",
   "main": "index.js",
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christophehurpeau/deep-freeze-es6.git"

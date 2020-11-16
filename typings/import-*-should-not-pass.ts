@@ -1,3 +1,4 @@
 import * as deepFreeze from "..";
 
-const obj: number = deepFreeze({count: 2});
+// @ts-expect-error
+const obj: number = deepFreeze({ count: 2 });
